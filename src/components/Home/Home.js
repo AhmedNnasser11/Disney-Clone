@@ -1,9 +1,13 @@
 import styled from "styled-components";
+import Movies from "../Movies/Movies";
+import Viewers from "../Viewers/Viewers";
 import ImgSlider from "./ImgSlider";
 const Home = () => {
   return (
     <Container>
         <ImgSlider/>
+        <Viewers />
+        <Movies />
     </Container>
   );
 };
